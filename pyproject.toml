@@ -1,6 +1,6 @@
 [project]
 name = "wordlookup"
-version = "0.1.0"
+version = "0.1.1"
 description = "Fetches and prints definitions for a given word"
 readme = "README.md"
 authors = [
