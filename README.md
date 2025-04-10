@@ -41,6 +41,21 @@ verb:
 - If the terminal width cannot be determined, it defaults to 80 characters.
 - Ensure you have an active internet connection as the tool fetches data from an external API.
 
+## Installation
+
+Wordlookup is available on [PyPI](https://pypi.org/project/wordlookup/) and can be installed in multiple ways:
+
+```sh
+# using uv
+uv tool install wordlookup
+
+# using pipx
+pipx install wordlookup
+
+# using pip
+pip install wordlookup
+```
+
 ## Building from Source
 
 ### Prerequisites
@@ -48,7 +63,7 @@ verb:
 - Python 3.13
 - [uv](https://github.com/astral-sh/uv) package manager
 
-### Installation
+### Installation from source
 
 1. Clone the repository:
 
@@ -79,6 +94,8 @@ uv tool install wordlookup
 ```
 
 ### Distributing the Python wheel (.whl) file to others to install
+
+> Note: These next steps are not necessary if you simply want to install and use this package from PyPI as described in the [Installation](#installation) section.
 
 1. Run/test the command provided in the wheel without explicitly installing into a persistent environment or adding it to our system's PATH.
 
