@@ -11,6 +11,9 @@ dependencies = [
     "httpx>=0.28.1",
 ]
 
+[project.urls]
+Repository = "https://github.com/thisdavej/wordlookup"
+
 [project.scripts]
 wordlookup = "wordlookup.cli:main"
 
